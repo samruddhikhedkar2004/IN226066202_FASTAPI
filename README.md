@@ -77,8 +77,3 @@ Each API endpoint was executed and verified. Screenshots of the outputs are incl
 **Samruddhi Manikrao Khedkar**  
 Agentic AI Intern  
 Innomatics Research Labs
-Innomatics Research Labs
-
-**Samruddhi Manikrao Khedkar**  
-Agentic AI Intern  
-Innomatics Research Labs
