@@ -1,74 +1,58 @@
-# 🚀 FastAPI Assignment – Agentic AI Internship
+#  FastAPI Module – Agentic AI Internship
 
-This repository contains **FastAPI Assignment 1** completed as part of the **Agentic AI Internship at Innomatics Research Labs**.
+This repository contains my **FastAPI assignments and practice work** completed during the **Agentic AI Internship at Innomatics Research Labs**.
 
-The assignment focuses on building basic **REST APIs using FastAPI**, implementing product-related endpoints, and testing them using **Swagger UI**.
+The goal of these tasks is to gain hands-on experience in building **REST APIs using FastAPI**, implementing backend logic, handling request data, and testing endpoints using Swagger UI.
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-```
-IN226066202_FASTAPI
-│
-└── ASSIGNMENT 1
-    ├── main.py
-    ├── Q1_Output.png
-    ├── Q2_Output.png
-    ├── Q3_Output.png
-    ├── Q4_Output.png
-    ├── Q5_Output.png
-    └── Q6_Output.png
-```
-
-- **main.py** → FastAPI application containing all API endpoints  
-- **Output screenshots** → Browser responses for each assignment task
+Each assignment folder contains:
+- FastAPI implementation (`main.py`)
+- Task-specific documentation (`README.md`)
+- Output screenshots for evaluation
 
 ---
 
 ## ⚙️ Technologies Used
 
-- Python  
-- FastAPI  
-- Uvicorn  
-- REST API Development  
+- **Python**
+- **FastAPI**
+- **Uvicorn**
+- **REST API Development**
+- **Swagger UI for API Testing**
 
 ---
 
-## 🔗 Implemented API Endpoints
+## 🧪 Running the FastAPI Application
 
-| Endpoint | Description |
-|--------|--------|
-| `/products` | Returns all available products |
-| `/products/category/{category_name}` | Filters products by category |
-| `/products/instock` | Shows only products currently in stock |
-| `/store/summary` | Returns store statistics including stock details and categories |
-| `/products/search/{keyword}` | Searches products by name (case-insensitive) |
-| `/products/deals` | Displays cheapest and most expensive products |
-
----
-
-## 🧪 Testing the API
-
-Run the FastAPI server using:
+To run the API locally:
 
 ```
 uvicorn main:app --reload
 ```
 
-Then open in browser:
+Then open the interactive API documentation in your browser:
 
 ```
 http://127.0.0.1:8000/docs
 ```
 
-Swagger UI allows testing all API endpoints interactively.
+Swagger UI allows testing all endpoints directly.
 
 ---
 
-## 📸 Assignment Outputs
+## 📌 Learning Focus
 
-Each API endpoint was executed and verified. Screenshots of the outputs are included in the **ASSIGNMENT 1** folder.
+Through these assignments, I am practicing:
+
+- Building REST APIs using FastAPI
+- Handling **query parameters and path parameters**
+- Implementing **filtering and search logic**
+- Validating request data using **Pydantic models**
+- Testing APIs using **Swagger UI**
+- Structuring backend projects for real-world development
 
 ---
 
