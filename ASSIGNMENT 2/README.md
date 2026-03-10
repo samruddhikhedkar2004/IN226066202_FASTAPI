@@ -18,31 +18,18 @@ It includes product filtering, price lookup, customer feedback submission, bulk 
 - Bulk order placement with stock checking
 - Order status tracking (pending → confirmed)
 
-## API Endpoints
+## 🔗 API Endpoints
 
-GET /products/filter  
-Filter products by category and price range.
-
-GET /products/{product_id}/price  
-Get only the name and price of a product.
-
-GET /products/summary  
-Returns store statistics including total products, stock count, cheapest and most expensive product, and categories.
-
-POST /feedback  
-Submit customer feedback for a product.
-
-POST /orders/bulk  
-Place a bulk order with multiple items.
-
-POST /orders  
-Create a new order with status "pending".
-
-GET /orders/{order_id}  
-Retrieve order details by order ID.
-
-PATCH /orders/{order_id}/confirm  
-Update order status from "pending" to "confirmed".
+| Endpoint | Description |
+|--------|--------|
+| `GET /products/filter` | Filter products by category and price range |
+| `GET /products/{product_id}/price` | Get only the name and price of a product |
+| `GET /products/summary` | Returns store statistics including total products, stock count, cheapest and most expensive product, and categories |
+| `POST /feedback` | Submit customer feedback for a product |
+| `POST /orders/bulk` | Place a bulk order with multiple items |
+| `POST /orders` | Create a new order with status **pending** |
+| `GET /orders/{order_id}` | Retrieve order details by order ID |
+| `PATCH /orders/{order_id}/confirm` | Update order status from **pending** to **confirmed** |
 
 ## Running the Project
 
@@ -58,4 +45,6 @@ Open API documentation
 
 http://127.0.0.1:8000/docs
 
-B.Tech Electronics and Telecommunication Engineering
+## Learning Outcome
+
+This assignment helped me in understanding FastAPI routing, request validation using Pydantic, and implementing business logic for real-world API scenarios.
